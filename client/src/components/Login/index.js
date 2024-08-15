@@ -20,7 +20,7 @@ const Login = () => {
   };
 
   const handleLogin = async () => {
-    const url = `https://login-s4y3.onrender.com/admin/api/auth/`;
+    const url = `https://login-s4y3.onrender.com/`;
     try {
       if (user.identifier && user.password) {
         const { data } = await axios.post(url, user);
